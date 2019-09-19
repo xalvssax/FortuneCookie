@@ -1,0 +1,77 @@
+// Alyssa Rogers
+// Fortune Cookie Project, 09/18/2019
+
+import java.util.Random;
+
+public class FortuneCookieProject {
+    public static void main (String[] args ) {
+        Random r = new Random();
+        int lotto1 = 1 + r.nextInt(54);
+        int lotto2 = 1 + r.nextInt(54);
+        int lotto3 = 1 + r.nextInt(54);
+        int lotto4 = 1 + r.nextInt(54);
+        int lotto5 = 1 + r.nextInt(54);
+        int lotto6 = 1 + r.nextInt(54);
+        int lotto7 = 1 + r.nextInt(54);
+        int lotto8 = 1 + r.nextInt(54);
+        int lotto9 = 1 + r.nextInt(54);
+        int lotto10 = 1 + r.nextInt(54);
+        int lotto11 = 1 + r.nextInt(54);
+        int lotto12 = 1 + r.nextInt(54);
+        int lotto13 = 1 + r.nextInt(54);
+        int lotto14 = 1 + r.nextInt(54);
+        int lotto15 = 1 + r.nextInt(54);
+        int lotto16 = 1 + r.nextInt(54);
+        int lotto17 = 1 + r.nextInt(54);
+        int lotto18 = 1 + r.nextInt(54);
+        int lotto19 = 1 + r.nextInt(54);
+        int lotto20 = 1 + r.nextInt(54);
+        int fortune_value = 1 + r.nextInt(6);
+        String fortune_message;
+        if (fortune_value == 1)
+            fortune_message = "A conclusion is simply the place where you got tired of thinking.";
+        else if (fortune_value == 2)
+            fortune_message = "A cynic is only a frustrated optimist.";
+        else if (fortune_value == 3)
+            fortune_message = "A foolish man listens to his heart. A wise man listens to cookies.";
+        else if (fortune_value == 4)
+            fortune_message = "You will die alone and poorly dressed.";
+        else if (fortune_value == 5)
+            fortune_message = "A fanatic is one who can't change his mind, and won't change the subject.";
+        else if (fortune_value == 6)
+            fortune_message = "If you look back, you'll soon be going that way.";
+        else if (fortune_value == 7)
+            fortune_message = "You will live long enough to open many fortune cookies.";
+        else if (fortune_value == 8)
+            fortune_message = "An alien of some sort will be appearing to you shortly.";
+        else if (fortune_value == 9)
+            fortune_message = "Do not mistake temptation for opportunity.";
+        else if (fortune_value == 10)
+            fortune_message = "Flattery will go far tonight.";
+        else if (fortune_value == 11)
+            fortune_message = "He who laughs at himself never runs out of things to laugh at.";
+        else if (fortune_value == 12)
+            fortune_message = "He who laughs last is laughing at you.";
+        else if (fortune_value == 13)
+            fortune_message = "He who throws dirt is losing ground.";
+        else if (fortune_value == 14)
+            fortune_message = "Some men dream of fortunes, others dream of cookies.";
+        else if (fortune_value == 15)
+            fortune_message = "The greatest danger could be your stupidity.";
+        else if (fortune_value == 16)
+            fortune_message = "We don't know the future, but here's a cookie.";
+        else if (fortune_value == 17)
+            fortune_message = "The world may be your oyster, but it doesn't mean you'll get its pearl.";
+        else if (fortune_value == 18)
+            fortune_message = "You will be hungry again in one hour.";
+        else if (fortune_value == 19)
+            fortune_message = "The road to riches is paved with homework.";
+        else if (fortune_value == 20)
+            fortune_message = "You can always find happiness at work on Friday.";
+        System.out.println("Your fortune is" + fortune_message);
+        System.out.println("\t" + lotto1 + "-" + lotto2 + "-" + lotto3 + "-" + lotto4 + "-" + lotto5 + "-" + lotto6 + "-" + lotto7 + "-" + lotto8 + "-" + lotto9 + "-" + lotto10 + "-" + lotto11 + "-" + lotto12 + "-" + lotto13 + "-" + lotto14 + "-" + lotto15 + "-" + lotto16 + "-" + lotto17 + "-" + lotto18 + "-" + lotto19 + "-" + lotto20);
+
+// you did not give the class enough information to successfully complete this project. I tried my best to make the code run but could not figure it out.
+
+    }
+}
